@@ -18,6 +18,6 @@ eqfeed_callback({
     "types":",dyfi,eq-location-map,geoserve,historical-moment-tensor-map,historical-seismicity-map,losspager,nearby-cities,origin,p-wave-travel-times,phase-data,scitech-link,shakemap,tectonic-summary,"
   },
     "geometry":{
-     "type":"Point","coordinates":[126.3832,5.9775,111.16]}
+     "type":"Point","coordinates":[126.3832,5.9775,111.16]
   }
 });
