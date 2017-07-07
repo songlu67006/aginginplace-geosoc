@@ -40,7 +40,7 @@ eqfeed_callback({
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [23.4789085, 120.4492625, 0],
+				"coordinates": [120.4492625, 23.4789085, 0],
 			},
 			"id": "ak16259761"
 		}
