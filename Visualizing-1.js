@@ -11,7 +11,7 @@ eqfeed_callback({
 	"features": [{
 			"type": "Feature",
 			"properties": {
-				"mag": 1.5,
+				"mag": 6,
 				"place": "93km SW of Homer, Alaska",
 				"time": 1499240574830,
 				"updated": 1499241053037,
