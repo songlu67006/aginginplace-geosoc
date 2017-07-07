@@ -1,2 +1,50 @@
-eqfeed_callback({"type":"FeatureCollection","metadata":{"generated":1499241290000,"url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_day.geojsonp","title":"USGS Magnitude 1.0+ Earthquakes, Past Day","status":200,"api":"1.5.8","count":110},"features":[{"type":"Feature","properties":{"mag":1.5,"place":"93km SW of Homer, Alaska","time":1499240574830,"updated":1499241053037,"tz":-600,"url":"https://earthquake.usgs.gov/earthquakes/eventpage/ak16259761","detail":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak16259761.geojsonp","felt":null,"cdi":null,"mmi":null,"alert":null,"status":"automatic","tsunami":0,"sig":35,"net":"ak","code":"16259761","ids":",ak16259761,","sources":",ak,","types":",geoserve,origin,","nst":null,"dmin":null,"rms":0.66,"gap":null,"magType":"ml","type":"earthquake","title":"M 1.5 - 93km SW of Homer, Alaska"},"geometry":{"type":"Point","coordinates":[-152.6119,58.9975,60.1]},"id":"ak16259761"},
-{"type":"Feature","properties":{"mag":1.12,"place":"6km NW of The Geysers, California","time":1499239954330,"updated":1499240462950,"tz":-480,"url":"https://earthquake.usgs.gov/earthquakes/eventpage/nc72828066","detail":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc72828066.geojsonp","felt":null,"cdi":null,"mmi":null,"alert":null,"status":"automatic","tsunami":0,"sig":19,"net":"nc","code":"72828066","ids":",nc72828066,","sources":",nc,","types":",geoserve,nearby-cities,origin,phase-data,scitech-link,","nst":9,"dmin":0.003311,"rms":0.02,"gap":95,"magType":"md","type":"earthquake","title":"M 1.1 - 6km NW of The Geysers, California"},"geometry":{"type":"Point","coordinates":[-122.8130035,38.8209991,2.8]},"id":"nc72828066"});
+eqfeed_callback({
+	"type": "FeatureCollection",
+	"metadata": {
+		"generated": 1499241290000,
+		"url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_day.geojsonp",
+		"title": "USGS Magnitude 1.0+ Earthquakes, Past Day",
+		"status": 200,
+		"api": "1.5.8",
+		"count": 110
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"mag": 1.5,
+				"place": "93km SW of Homer, Alaska",
+				"time": 1499240574830,
+				"updated": 1499241053037,
+				"tz": -600,
+				"url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak16259761",
+				"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak16259761.geojsonp",
+				"felt": null,
+				"cdi": null,
+				"mmi": null,
+				"alert": null,
+				"status": "automatic",
+				"tsunami": 0,
+				"sig": 35,
+				"net": "ak",
+				"code": "16259761",
+				"ids": ",ak16259761,",
+				"sources": ",ak,",
+				"types": ",geoserve,origin,",
+				"nst": null,
+				"dmin": null,
+				"rms": 0.66,
+				"gap": null,
+				"magType": "ml",
+				"type": "earthquake",
+				"title": "M 1.5 - 93km SW of Homer, Alaska"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-152.6119, 58.9975, 60.1]
+			},
+			"id": "ak16259761"
+		}
+
+	],
+	"bbox": [-177.7286, -35.5361, -1.27, 130.3062, 83.5882, 199.55]
+});
